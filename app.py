@@ -79,5 +79,5 @@ def predict():
       return render_template('index.html', prediction_text='The person not exited yet', extra_text ="-> Prediction by " + Model)
 
 if __name__=="__main__"
-    app.run()
+    app.run(debug = True)
 
